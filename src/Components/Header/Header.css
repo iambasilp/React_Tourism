@@ -1,0 +1,20 @@
+.header{
+    background-color: rgb(105,132,79);
+    display: flex;
+    padding: 1.5rem 2rem ;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.header-logo h3{
+    background-color: black;
+    color: white;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+}
+.header-menu li{
+    color:white;
+    display: inline-block;
+    margin-left: 40px;
+    font-weight: 500;
+}

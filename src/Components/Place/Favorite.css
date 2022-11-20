@@ -1,0 +1,27 @@
+.favImage {
+  width: 100%;
+  transition: all ease 0.3s;
+  border-radius: 0.7rem;
+}
+.favor-container {
+  transition: all ease 0.3s;
+  position: relative;
+}
+.favor-container .fa-times-circle {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  color: white;
+  z-index:1;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.favor-container .fa-times-circle:hover{
+    color: #d1095c;
+}
+.card-image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}

@@ -1,0 +1,49 @@
+.home-container {
+  background-image: url("../Images/Home.jpg"); /* The image used */
+  background-color:white; /* Used if the image is unavailable */
+  height:calc(100vh - 87px); /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.text-container {
+  color: white;
+  width: 660px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-container h1 {
+  font-size: 55px;
+  text-shadow: 3px 4px 5px #000000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.text-container h1::selection{
+    background-color:white;
+    color: green;
+}
+.text-container p {
+  margin-top: 1rem;
+  line-height: 22px;
+  text-transform: lowercase;
+  font-weight: 400;
+}
+.home-btn {
+  color: green;
+  margin-top: 1.3rem;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: .9rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: .3rem;
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+.home-btn:hover{
+    background-color: green;
+    color: white;
+}

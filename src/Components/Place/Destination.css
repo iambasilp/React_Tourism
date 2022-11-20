@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: .7em;
+  background: #ece9e6;
+  background: linear-gradient(to right, #ffffff, #ece9e6);
+  transition: all ease 0.3s;
+}
+.card__body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card__body h4 {
+  font-size: 1.3rem;
+  text-align: left;
+  text-transform: capitalize;
+}
+.card__body p {
+  font-size: 0.8rem;
+  text-align: left;
+}
+.card__footer {
+  display: flex;
+  padding: 1rem;
+  margin-top: auto;
+}
+
+.user {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.user__image {
+  border-radius: 50%;
+}
+
+.user__info > small {
+  color: #666;
+}
+.card-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 2rem;
+  border-radius: 3px;
+  background-color: #666;
+  color: white;
+  padding: 0.3rem;
+  transition: all ease 0.3s;
+}
+.card-button.active {
+  background-color: #d1095c;
+}
+.card .icon {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.6rem;
+  opacity: 0;
+  transform: translate(100%, -100%);
+  transition: all ease 0.2s;
+}
+.card.active .icon {
+  opacity: 1;
+  transform: translate(0%);
+}

@@ -1,0 +1,20 @@
+.row-one h3 {
+  text-align: left;
+  font-size: 1.5rem;
+  padding: 3rem 0rem 1.5rem 0.5rem;
+  position: relative;
+  text-decoration: underline;
+  text-decoration: underline;
+}
+  
+.place-card .row-one {
+  margin: 0rem 2rem 10rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr 450px;
+  column-gap: 3rem;
+}
+.box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
