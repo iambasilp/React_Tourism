@@ -31,3 +31,12 @@ TABLE OF CONTENTS
 - What is filter method
 - How to remove an item from array using filter
 - How to remove multiple items from array using filter
+
+
+// not in this you can practive at web id
+
+- Intro to React Class component
+- What is Class component in React
+- Create a React class component
+- Create a Counter using Class component
+- Convert a class component to functional component
